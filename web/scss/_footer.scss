@@ -1,0 +1,86 @@
+// 
+// Footer
+// 
+
+.footer {
+    position: relative;
+    padding: 200px 0 50px;
+    .footer-nav {
+        li {
+            padding: 6px 0;
+            .footer-link {
+                color: $gray-600;
+                position: relative;
+                transition: all 0.3s ease-in-out;
+                &::after {
+                    content: "";
+                    background-color: $primary;
+                    position: absolute;
+                    top: 14px;
+                    left: 0;
+                    height: 5px;
+                    width: 0px;
+                    border-radius: 10px;
+                    transition: all 0.3s ease-in-out;
+                }
+                &:hover {
+                    color: $dark;
+                    padding-left: 12px;
+                    &::after {
+                        width: 05px;
+                    }
+                }
+            }
+        }
+    }
+    &.bg-light {
+        background-image: url("../images/footer-light-bg.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .cta-content {
+        position: absolute;
+        top: -100px;
+        left: 0;
+        right: 0;
+        .cta-bg {
+            background-image: url("../images/cta-bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .subscribe-form {
+            position: relative;
+            .form-control {
+                background-color: rgba($white, .12);
+                padding: 8px 150px 8px 50px;
+                border-radius: 4px;
+                min-height: 62px;
+                color: $white;
+                border-color: transparent;
+                &:focus {
+                    box-shadow: none;
+                }
+                &::placeholder {
+                    color: $white;
+                    opacity: 0.3;
+                }
+            }
+            .form-icon {
+                position: absolute;
+                top: 50%;
+                left: 16px;
+                transform: translateY(-50%);
+                color: #fff;
+                opacity: .3;
+                font-size: 20px;
+            }
+            .form-btn {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 8px;
+            }
+        }
+    }
+}

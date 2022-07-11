@@ -1,0 +1,26 @@
+<svg width="160" height="33.6" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="A" x1="0.77489" y1="0.31099" x2="0.22641" y2="0.69611">
+   <stop offset="0" stop-color="#fc5b3f"/>
+   <stop offset="0.284" stop-color="#f8573d"/>
+   <stop offset="0.579" stop-color="#eb4b38"/>
+   <stop offset="0.877" stop-color="#d73730"/>
+   <stop offset="1" stop-color="#cc2c2c"/>
+  </linearGradient>
+  <linearGradient id="B" x1="0.15902" y1="0.63069" x2="0.80598" y2="0.36638">
+   <stop offset="0" stop-color="#fc5b3f"/>
+   <stop offset="0.284" stop-color="#f8573d"/>
+   <stop offset="0.579" stop-color="#eb4b38"/>
+   <stop offset="0.877" stop-color="#d73730"/>
+   <stop offset="1" stop-color="#cc2c2c"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path d="m31.2,5.6l-1,1.1l2.5,6.4l3.9,3.5l2.8,-3.4l-1.7,-5.2l-4.4,-4.5c-0.8,0.7 -1.5,1.3 -2.1,2.1z" fill="url(#A)" id="svg_1"/>
+  <path d="m39.5,13.1c1.1,-1.2 2.5,-1.9 4,-1.9c2.2,0 5.7,1.5 5.7,5.6s-3.5,5.6 -5.7,5.6c-1.5,0 -2.9,-0.6 -4,-1.9l-2.8,-4l-6.5,-9.9l-1.3,11.4l1.3,8.9l1,1.1c2.4,2.7 5.5,4.5 8.9,5.2c3.2,0.7 6.5,0.4 9.6,-0.8s5.7,-3.2 7.6,-5.8c2,-2.8 3.1,-6.2 3.1,-9.8s-1.1,-7 -3.1,-9.8c-1.9,-2.6 -4.5,-4.6 -7.6,-5.8s-6.4,-1.5 -9.6,-0.8c-2.5,0.5 -4.8,1.6 -6.8,3.2l6.2,9.5z" fill="#fc5b3f" id="svg_2"/>
+  <path d="m29.2,28.1l1,-1.1l-2.5,-6.4l-3.9,-3.5l-2.8,3.4l1.7,5.1l4.4,4.5c0.7,-0.6 1.5,-1.3 2.1,-2z" fill="url(#B)" id="svg_3"/>
+  <path d="m20.9,20.5c-1.1,1.2 -2.5,1.9 -4,1.9c-2.2,0 -5.7,-1.5 -5.7,-5.6s3.5,-5.6 5.7,-5.6c1.5,0 2.9,0.6 4,1.9l2.8,4l6.5,9.9l0,-20.4l-1,-1.1c-2.4,-2.7 -5.5,-4.5 -8.9,-5.2c-3.2,-0.7 -6.5,-0.4 -9.6,0.8s-5.7,3.2 -7.6,5.9c-2,2.8 -3.1,6.2 -3.1,9.8s1.1,7 3.1,9.8c1.9,2.6 4.5,4.6 7.6,5.8s6.4,1.5 9.6,0.8c2.5,-0.5 4.8,-1.6 6.8,-3.2l-6.2,-9.5z" fill="#fc5b3f" id="svg_4"/>
+  <text fill="#000000" stroke="null" stroke-width="0" x="66.0313" y="27.29996" id="svg_7" font-size="29" font-family="'Asap'" text-anchor="start" xml:space="preserve" font-weight="bold">W3N</text>
+ </g>
+</svg>

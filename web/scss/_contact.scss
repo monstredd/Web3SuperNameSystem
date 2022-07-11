@@ -1,0 +1,33 @@
+// 
+// Contact
+// 
+
+.custom-form {
+    .form-control {
+        height: 45px;
+        padding: 0.375rem 1.1rem;
+        font-size: 14px;
+        border-width: 2px;
+        &:focus {
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+    textarea{
+        &.form-control{
+            height: auto;
+        }
+    }
+}
+
+.form-control{
+    background-color: darken($white, 2%);
+    border-color: $gray-300;
+    &:focus {
+        border-color: $gray-400;
+    }
+    &:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+}
