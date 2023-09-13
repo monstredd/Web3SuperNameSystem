@@ -1,5 +1,50 @@
 # Web3 Donmain System
 
+Introduction to W3N
+
+WEB3 Domain Name System (W3N) is a distributed, open, scalable, tradable, multi-language domain name system based on the EOS blockchain.
+
+W3N's job is to map multilingual, human-readable names (such as "Li Bai") to machine-readable identifiers such as EOS addresses, Bitcoin addresses, Ethereum addresses, content hashes and metadata, and storage The identification of the NFT on the chain. W3N also supports "reverse parsing", which allows metadata (such as canonical names, interface descriptions, NFT avatar serialization data) to be associated with EOS addresses. W3N has similar goals to Ethereum's ENS and the Internet's domain name service DNS, but due to the functions and limitations provided by the Ethereum blockchain, as well as the too low TPS, W3N is implemented on EOS, using the TABLE structure of EOS to achieve more Fast parsing speed and support for larger metadata, as well as the implementation of a nearly zero-cost decentralized domain name registration, bidding, and transfer system. Like DNS, W3N operates on a dot-delimited hierarchical name system called a domain, and the owner of the domain has full control over subdomains.
+
+Top-level domains, such as ".w3n", are owned by a smart contract called W3N, and the registrar specifies the rules that govern the allocation of its subdomains. Anyone can take ownership of a domain they use by adhering to the rules set forth in these registrar contracts. w3n also supports importing DNS names that users already own for use on W3N. ".w3n" is hidden by default. For example, when a user preemptively registers the domain name "Li Bai", the default name is "Li Bai.w3n". In actual use, the "w3n" field can be ignored. Squatting is supported in multiple languages. The system will support mainstream languages and will be extended to all languages that humans currently have writing systems.
+
+Due to the hierarchical nature of W3N, anyone with a domain of any level can configure subdomains for themselves or others as needed. For example, if Alice owns "Li Bai", she can create "Will Enter Wine.Li Bai" and configure it as she wishes. The actual address is "Jianjinjiu.Libai.w3n". For the sake of convenience in actual use, the w3n field is hidden by default. This design increases ease of use and lowers the language threshold for users to enter web3.0. W3N is deployed on the EOS announcement blockchain main network and will be expanded to multiple EOS sister chain networks in the future. If you use a library like eosjs , scatter , anchor , etc. Javascript library or an end-user application, it will automatically detect the network you are interacting with and use W3N deployment on that network.
+
+After the W3N smart contract is deployed on the main network, if you have an EOS account, you can use the bloks.io browser to register a domain name in the smart contract, or use the tools on our homepage to register it. After the transaction component is online, you can place orders to trade domain names that have been registered, or transfer domain names to other people's EOS accounts, and create a truly decentralized domain name leasing market.
+
+W3N architecture
+
+W3N is divided into registration component and transaction component, which are composed of two major components
+
+The registered component is structurally designed in the EOS Table
+
+1. Domain owner (EOS account address)
+
+2. Domain binding resolution object (EOS account address)
+
+3. Blockchain addresses of other chains bound to the domain (BTC address, ETH address, etc.)
+
+4. Domain-bound serialized NFT avatar
+
+5. Domain registration time
+
+6. Domain-bound resolvers and TTL
+
+7. The resolution object bound to the subdomain (EOS address)
+
+Trading component in EOS Table structure design
+
+1.Pending order price of the domain
+
+2. The last transaction price corresponding to the domain
+
+3. Bidding for existing domains
+
+W3N Vision
+
+WEB 3.0 is the fourth industrial revolution. We will not rely on centralized systems to realize the production, transaction and transfer of production materials. WEB 3.0 must be based on high-performance and decentralized blockchain, W3N Taking advantage of the high performance of EOS, the WEB3.0 domain name system was created, which will ensure that EOS is at the forefront of the WEB3.0 revolution and becomes one of the standard blockchain protocols of WEB3.0.
+
+
 W3N简介
 
 WEB3域名系统（W3N）是一个基于EOS区块链的分布式、开放、可扩展的，可交易的，多语言的支持的域名系统。
