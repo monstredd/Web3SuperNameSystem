@@ -1,8 +1,8 @@
-# Web3 Donmain System
+# Web3 Super Name System
 
 Introduction to W3N
 
-WEB3 Domain Name System (W3N) is a distributed, open, scalable, tradable, multi-language domain name system based on the EOS blockchain.
+WEB3 Super Name System System (W3N) is a distributed, open, scalable, tradable, multi-language domain name system based on the EOS blockchain.
 
 W3N's job is to map multilingual, human-readable names (such as "Li Bai") to machine-readable identifiers such as EOS addresses, Bitcoin addresses, Ethereum addresses, content hashes and metadata, and storage The identification of the NFT on the chain. W3N also supports "reverse parsing", which allows metadata (such as canonical names, interface descriptions, NFT avatar serialization data) to be associated with EOS addresses. W3N has similar goals to Ethereum's ENS and the Internet's domain name service DNS, but due to the functions and limitations provided by the Ethereum blockchain, as well as the too low TPS, W3N is implemented on EOS, using the TABLE structure of EOS to achieve more Fast parsing speed and support for larger metadata, as well as the implementation of a nearly zero-cost decentralized domain name registration, bidding, and transfer system. Like DNS, W3N operates on a dot-delimited hierarchical name system called a domain, and the owner of the domain has full control over subdomains.
 
